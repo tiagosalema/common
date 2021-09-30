@@ -15,4 +15,5 @@ export * from './events/types/enums/order-status';
 export * from './events/types/abstracts/listener';
 export * from './events/types/abstracts/publisher';
 export * from './events/types/interfaces/ticket-created-event';
-export * from './events/types/interfaces/ticket-updated-event';
+export * from './events/types/interfaces/order-created-event';
+export * from './events/types/interfaces/order-cancelled-event';
