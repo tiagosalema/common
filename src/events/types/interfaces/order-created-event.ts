@@ -5,8 +5,11 @@ interface OrderCreatedEvent {
   data: {
     id: string;
     userId: string;
-    price: number;
-    expiresAt: string; // stringified from Date for better control
+    ticket: {
+      id: string;
+      price: number;
+    };
+    expiresAt: string; // stringified date for better control
   };
 }
 
