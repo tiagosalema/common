@@ -4,6 +4,7 @@ interface OrderCreatedEvent {
   subject: Subjects;
   data: {
     id: string;
+    version: number;
     userId: string;
     ticket: {
       id: string;
