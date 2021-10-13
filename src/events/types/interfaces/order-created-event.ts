@@ -2,7 +2,7 @@ import { Subjects } from '../enums/subjects';
 import { OrderStatus } from '../enums/order-status';
 
 interface OrderCreatedEvent {
-  subject: Subjects;
+  subject: Subjects.OrderCreated;
   data: {
     id: string;
     version: number;

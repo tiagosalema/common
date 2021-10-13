@@ -1,7 +1,7 @@
 import { Subjects } from '../enums/subjects';
 
 interface TicketUpdatedEvent {
-  subject: Subjects;
+  subject: Subjects.TicketUpdated;
   data: {
     id: string;
     version: number;

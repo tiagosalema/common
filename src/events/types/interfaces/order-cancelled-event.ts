@@ -1,7 +1,7 @@
 import { Subjects } from '../enums/subjects';
 
 interface OrderCancelledEvent {
-  subject: Subjects;
+  subject: Subjects.OrderCancelled;
   data: {
     id: string;
     version: number;
