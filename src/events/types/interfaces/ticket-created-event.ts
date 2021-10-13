@@ -8,6 +8,7 @@ interface TicketCreatedEvent {
     title: string;
     price: number;
     userId: string;
+    // orderId could be added and set as null
   };
 }
 
