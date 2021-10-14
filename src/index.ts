@@ -19,3 +19,4 @@ export * from './events/types/interfaces/ticket-updated-event';
 export * from './events/types/interfaces/order-created-event';
 export * from './events/types/interfaces/order-cancelled-event';
 export * from './events/types/interfaces/expiration-complete-event';
+export * from './events/types/interfaces/payment-created-event';
